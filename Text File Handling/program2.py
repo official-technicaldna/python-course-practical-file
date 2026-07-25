@@ -1,0 +1,6 @@
+file = open("demo.txt", "r")
+file_content = file.read()
+print(file_content)
+lines = file.readlines(2)
+print(lines)
+file.close()
